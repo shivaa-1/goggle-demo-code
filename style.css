@@ -1,0 +1,23 @@
+body{
+    background-image: url('background.webp');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top-header{
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: flex-end;
+    word-spacing: 10px;
+    color: black;
+    
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input{
+    border-radius: 20%;
+}
